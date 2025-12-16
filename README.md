@@ -7,7 +7,7 @@ RN版本的统计和反作弊的SDK
 1. react native 引用插件
 
 ```
-"react-native-eagleeye": "git+https://github.com/CLChater/react-native-eagleeye",
+"react-native-eagleeye": "git+https://github.com/SimiTalk/react-native-eagleeye",
 ```
 
 2. 运行命令
@@ -17,8 +17,7 @@ RN版本的统计和反作弊的SDK
 
 插件：react-navigation，目前支持5.*.* 以上版本，后续插件版本升级会做相对更新！！！
 
-
-node node_modules/react-native-eagleeye/HawkeyeDataRNHook.js -run
+node node_modules/react-native-eagleeye/HawkeyeDataRNHookNew.js -run
 ```
 
 3. 新增maven仓库
@@ -35,7 +34,7 @@ your-react-native-project/
 allprojects {
     repositories {
         ......
-        maven { url "https://raw.githubusercontent.com/CLChater/sdk_eagleeye/main" } //新增
+        maven { url "https://raw.githubusercontent.com/SimiTalk/sdk_eagleeye/main" } //新增
         //     maven { url "https://gitee.com/simitalk/sdk_eagleeye/raw/main" } //gitee 镜像
     }
 }
