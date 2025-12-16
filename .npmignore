@@ -1,0 +1,26 @@
+# 开发文件
+__tests__/
+*.test.js
+*.spec.js
+.github/
+.vscode/
+
+# 配置文件
+.eslintrc.js
+.prettierrc
+.babelrc
+metro.config.js
+tsconfig.json
+
+# 示例代码
+example/
+examples/
+
+# 其他
+node_modules/
+.DS_Store
+*.log
+yarn.lock
+package-lock.json
+.git
+.gitignore

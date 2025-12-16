@@ -4,10 +4,35 @@
   "description": "Get device information & auto track event",
   "main": "src/index",
   "author": "SimiTalk <> (https://github.com/SimiTalk)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/SimiTalk/react-native-eagleeye.git",
+  "license": "MIT",
+  "homepage": "https://github.com/SimiTalk/react-native-eagleeye#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimiTalk/react-native-eagleeye.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimiTalk/react-native-eagleeye/issues"
+  },
+  "keywords": [
+    "react-native",
+    "device-information",
+    "analytics",
+    "tracking",
+    "event-tracking",
+    "eagleeye"
+  ],
+  "files": [
+    "src",
+    "HawkeyeDataRNHook.js",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "posttrack": "node node_modules/react-native-eagleeye/HawkeyeDataRNHook.js -run"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
   },
   "devDependencies": {
     "react": "18.2.0",

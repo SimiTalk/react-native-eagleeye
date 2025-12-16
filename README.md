@@ -7,7 +7,9 @@ RN版本的统计和反作弊的SDK
 1. react native 引用插件
 
 ```
-"react-native-eagleeye": "git+https://github.com/SimiTalk/react-native-eagleeye",
+npm install react-native-eagleeye
+# or
+yarn add react-native-eagleeye
 ```
 
 2. 运行命令
