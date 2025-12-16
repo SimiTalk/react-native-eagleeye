@@ -24,6 +24,7 @@
   "files": [
     "android",
     "ios",
+    "Eagleeye.xcframework",
     "src",
     "HawkeyeDataRNHook.js",
     "README.md",
