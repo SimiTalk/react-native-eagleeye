@@ -1,6 +1,6 @@
 {
   "name": "react-native-eagleeye",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Get device information & auto track event",
   "main": "src/index",
   "author": "SimiTalk <> (https://github.com/SimiTalk)",
@@ -27,8 +27,10 @@
     "Eagleeye.xcframework",
     "src",
     "HawkeyeDataRNHook.js",
+    "HawkeyeDataRNHookNew.js",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "react-native-hawkeye.podspec"
   ],
   "scripts": {
     "posttrack": "node node_modules/react-native-eagleeye/HawkeyeDataRNHook.js -run"

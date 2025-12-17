@@ -17,7 +17,7 @@ yarn add react-native-eagleeye
 ```
 ！！！Warning Tip！！！
 
-插件：react-navigation，目前支持5.*.* 以上版本，后续插件版本升级会做相对更新！！！
+插件：react-navigation，后续插件版本升级会做相对更新！！！
 
 node node_modules/react-native-eagleeye/HawkeyeDataRNHookNew.js -run
 ```
