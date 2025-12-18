@@ -1,6 +1,6 @@
 {
   "name": "react-native-eagleeye",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Get device information & auto track event",
   "main": "src/index",
   "author": "SimiTalk <> (https://github.com/SimiTalk)",

@@ -27,7 +27,7 @@ def verCode = 1
 def verName = "1.0.0"
 
 android {
-    compileSdkVersion safeExtGet('compileSdkVersion', 30)
+    compileSdkVersion safeExtGet('compileSdkVersion', 34)
 
     def agpVersion = com.android.Version.ANDROID_GRADLE_PLUGIN_VERSION
     // Check AGP version for backward compatibility reasons
@@ -35,8 +35,8 @@ android {
         namespace = "com.coolook.eagleye"
     }
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion safeExtGet('targetSdkVersion', 28)
+        minSdkVersion 23
+        targetSdkVersion safeExtGet('targetSdkVersion', 34)
 
         versionCode verCode
         versionName verName
@@ -89,7 +89,7 @@ repositories {
 
 dependencies {
 //  compileOnly(name: 'hawkeyeLib-debug', ext: 'aar')
-    api "com.sc.eagleeye:sdk.eagleeye:1.0.6"
+    api "com.sc.eagleeye:sdk.eagleeye:1.0.8"
 //     api "com.sc.eagleeye:sdk.eagleeye:1.0.5" // 1.0.5指向本地测试服务器
     implementation "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
 }
