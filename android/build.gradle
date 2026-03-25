@@ -89,7 +89,7 @@ repositories {
 
 dependencies {
 //  compileOnly(name: 'hawkeyeLib-debug', ext: 'aar')
-    api "com.sc.eagleeye:sdk.eagleeye:1.0.9"
+    api "com.sc.eagleeye:sdk.eagleeye:1.1.0"
 //     api "com.sc.eagleeye:sdk.eagleeye:1.0.5" // 1.0.5指向本地测试服务器
     implementation "com.facebook.react:react-native:${safeExtGet('reactNativeVersion', '+')}"
 }
