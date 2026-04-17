@@ -80,6 +80,9 @@ extern NSString * const STDB_TYPE_DEVICE_SAGE;
 extern NSString * const SERVER_URL;
 extern NSString * const URI_API;
 
+// 备用域名数组（用于主域名不可用时切换，格式：https://analysys{11-20}.simitalk.com）
+extern NSArray<NSString *> *STBackupServerURLs(void);
+
 extern NSString * const SERVER_APP_KEY;
 extern NSString * const SERVER_APP_TYPE;
 extern NSString * const SERVER_APP_CHANNEL;
